@@ -635,8 +635,8 @@ body {
 .contact-section button {
     width: 100%;
     padding: 10px;
-    background-color: var(--prussian-blue);
-    color: var(--white);
+    background-color: prussian-blue;
+    color: white;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -646,7 +646,8 @@ body {
  
 
 /*-----------------------------------*\
-  #PROJECT
+  #PROJECT    background-color: prussian-blue;
+    color: white;
 \*-----------------------------------*/
 
 .project { background-color: var(--alice-blue); }
