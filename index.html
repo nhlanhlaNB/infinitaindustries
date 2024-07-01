@@ -699,7 +699,7 @@
 
           <p class="section-subtitle">Contact Us</p>
         <div class="contact-section">
-            <form action="submit_contact.php" method="POST">
+            <form action="https://formspree.io/f/mldregya" method="POST">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
                 
@@ -714,6 +714,18 @@
         </div>
     </div>
       </section>
+      <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+  
+          emailjs.sendForm('service_dtubu62', 'service_dtubu62', this)
+            .then(function() {
+              alert('Message sent successfully!');
+            }, function(error) {
+              alert('Failed to send message. Please try again later.');
+            });
+        });
+      </script>
 
       <!-- 
         - #NEWSLETTER
