@@ -594,13 +594,13 @@ body {
   #CONTACT
 \*-----------------------------------*/
 
-
+/*
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-}
+}*/
 
 .contact-section {
   width: 100%;
@@ -617,6 +617,7 @@ body {
   margin-bottom: 5px;
   font-weight: bold;
 }
+.contact :is(.section-subtitle, .section-title, .section-text) { text-align: center; }
 
 .contact-section input, .contact-section textarea {
   width: 100%;
