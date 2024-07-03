@@ -281,7 +281,11 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.header-contact { display: none; }
+.header-contact {
+  display: block;
+  color: var(--white);
+  font-size: 1rem;
+}
 
 .header {
   position: fixed;
@@ -382,6 +386,7 @@ body {
   visibility: visible;
   opacity: 1;
 }
+
 
 
 
