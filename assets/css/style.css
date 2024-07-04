@@ -1368,3 +1368,24 @@ body {
   .footer-top { padding-block: 60px; }
 
 }
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button ion-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1EBE5D;
+}
